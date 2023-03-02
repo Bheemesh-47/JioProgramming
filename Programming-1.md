@@ -1,9 +1,10 @@
 # 100-coding-questions
 
 ### 1. Find a number is positive or negative ?
+```java
 <details open>
 <summary>Show Code</summary>  
-  ```java
+  
 class Main
 {
   public static void main (String[]args)
