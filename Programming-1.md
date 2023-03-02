@@ -129,9 +129,10 @@ public class Main
 </details>
 ```
 ### 5. Find the Greatest of the Three Numbers in Java
+
+```java
 <details open>
 <summary>Show Code</summary>
-```java
 //using conditional statements
 public class Main
 {
