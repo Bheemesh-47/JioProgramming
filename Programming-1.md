@@ -96,6 +96,8 @@ public class Main
 
  ### 4. Find the Sum of the Numbers in a Given Interval in Java
  ```java
+ <details open>
+<summary>Show Code</summary>
  //Using Brute Force
 public class Main
 {
@@ -111,11 +113,12 @@ public class Main
       System.out.println ("The sum is " + sum);
   }
 }
-
+</deatils>
 ```
+
+```java
 <details open>
 <summary>Show Code</summary>
-```java
 //using formula
 public class Main
 {
