@@ -159,9 +159,10 @@ public class Main
 }
 </details>
 ```
+
+```java
 <details open>
 <summary>Show Code</summary>
-```java
 public class Main
 {
   public static void main (String[]args)
