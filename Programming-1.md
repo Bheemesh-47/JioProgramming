@@ -2,7 +2,7 @@
 
 ### 1. Find a number is positive or negative ?
 
-  
+```java  
 class Main
 {
   public static void main (String[]args)
