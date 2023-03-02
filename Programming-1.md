@@ -664,4 +664,95 @@ public class ArmstrongChecker {
 }
 ```
 
+### 22. Check if the given number is a Perfect Square using Java
+```Java
+import java.util.Scanner;
+
+public class PerfectSquareChecker {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int n = scanner.nextInt();
+        
+        boolean isPerfectSquare = false;
+        
+        // Check if the number is a perfect square
+        for (int i = 1; i <= n; i++) {
+            if (i * i == n) {
+                isPerfectSquare = true;
+                break;
+            }
+        }
+        
+        if (isPerfectSquare) {
+            System.out.println(n + " is a perfect square.");
+        } else {
+            System.out.println(n + " is not a perfect square.");
+        }
+    }
+}
+```
+
+### 23. Program for Finding out the Prime Factors of a number in Java
+```java
+import java.util.Scanner;
+
+public class PerfectSquareChecker {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int n = scanner.nextInt();
+        
+        boolean isPerfectSquare = false;
+        
+        // Check if the number is a perfect square
+        for (int i = 1; i <= n; i++) {
+            if (i * i == n) {
+                isPerfectSquare = true;
+                break;
+            }
+        }
+        
+        if (isPerfectSquare) {
+            System.out.println(n + " is a perfect square.");
+        } else {
+            System.out.println(n + " is not a perfect square.");
+        }
+    }
+}
+```
+
+### 24. Program to find the power of a number using Java
+```java
+import java.util.Scanner;
+
+public class PrimeFactorFinder {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int n = scanner.nextInt();
+        
+        System.out.print("Prime factors of " + n + ": ");
+        
+        // Find the prime factors of n
+        for (int i = 2; i <= n; i++) {
+            while (n % i == 0) {
+                System.out.print(i + " ");
+                n /= i;
+            }
+        }
+        
+        System.out.println();
+    }
+}
+```
+
+
+### 25. Program to find factors of a number using Java
+
+### 26. Check Whether or Not the Given Number is a Strong Number in Java Language
+
+### 27. Program to check if the given number is an Automorphic number or not using Java
+
+
 
