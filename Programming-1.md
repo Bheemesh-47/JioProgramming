@@ -1,7 +1,8 @@
 # 100-coding-questions
 
 ### 1. Find a number is positive or negative ?
-  
+<details open>
+<summary>Show Code</summary>  
   ```java
 class Main
 {
@@ -19,6 +20,7 @@ class Main
   }
 }
 ```
+</details>
 
 ### 2. Find a number is Even or Odd?
 
