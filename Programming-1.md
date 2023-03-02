@@ -830,7 +830,7 @@ public class AutomorphicNumberChecker {
 ```
 <details open>
 <summary>### 28. Binary to decimal conversion using Java</summary>
-<br>
+
 ```java
 
 import java.util.Scanner;
