@@ -1,8 +1,7 @@
 # 100-coding-questions
 
 ### 1. Find a number is positive or negative ?
-```java
-<details open>
+
 <summary>Show Code</summary>  
   
 class Main
@@ -21,7 +20,7 @@ class Main
   }
 }
 ```
-</details>
+
 
 ### 2. Find a number is Even or Odd?
 
@@ -99,8 +98,7 @@ public class Main
 
  ### 4. Find the Sum of the Numbers in a Given Interval in Java
  ```java
- <details open>
-<summary>Show Code</summary>
+ 
  //Using Brute Force
 public class Main
 {
@@ -117,11 +115,10 @@ public class Main
   }
 }
 ```
-</deatils>
+
 
 ```java
-<details open>
-<summary>Show Code</summary>
+
 //using formula
 public class Main
 {
@@ -133,13 +130,12 @@ public class Main
 	}
 }
 ```
-</details>
+
 
 ### 5. Find the Greatest of the Three Numbers in Java
 
 ```java
-<details open>
-<summary>Show Code</summary>
+
 //using conditional statements
 public class Main
 {
@@ -162,12 +158,11 @@ public class Main
   }
 }
 ```
-</details>
+
 
 
 ```java
-<details open>
-<summary>Show Code</summary>
+
 public class Main
 {
   public static void main (String[]args)
@@ -186,11 +181,10 @@ public class Main
   }
 }
 ```
-</details>
+
 
 ### 6. Check Whether or Not the Year is a Leap Year in Java
-<details open>
-<summary>Show Code</summary>
+
 ```java
 import java.util.Scanner;
 
@@ -225,11 +219,10 @@ public class LeapYear {
 	}
 }
 ```
-</details>
+
 
 ### 7. Check if the given number is prime or not in Java
-<details open>
-<summary>Show Code</summary>
+
 ```java
 import java.util.Scanner;
 
@@ -268,11 +261,10 @@ public class PrimeNumber {
 	}
 }
 ```					 
-</details>
+
 
 ### 8. Find all the Prime Numbers in a Given Interval in Java
-<details open>
-<summary>Show Code</summary>
+
 ```java
 public class Main
  {
@@ -307,11 +299,10 @@ public class Main
    }
  }
 ```			   
- </details>
+
  
  ### 9. Find the Sum of the Digits of a Number in Java Language
-<details open>
-<summary>Show Code</summary>
+
  ```java
  public class Main
  {
@@ -333,11 +324,10 @@ public class Main
    }
  }
 ```
- </details>
+
  
 ### 10. Find the Reverse of a Number in Java Language
-<details open>
-<summary>Show Code</summary>
+
 ```java
 public class Main
 {
@@ -361,11 +351,10 @@ public class Main
     }
 }
 ```
-</details>
+
 
 ### 11. Check Whether or Not the Number is a Palindrome in Java Language
-<details open>
-<summary>Show Code</summary>
+
 ```java
 public class Main
  {
@@ -391,11 +380,10 @@ public class Main
    }
  }
 ```
- </details>
+
  
  ### 12. Check Whether or Not the Number is an Armstrong Number
- <details open>
-<summary>Show Code</summary>
+
  ```java
  import java.util.*;
 import java.lang.*;
@@ -436,13 +424,11 @@ class Main {
     }
 
 }
-```
-</details>
+
 
 ### 13. Find the Armstrong Numbers in a given Range using Java
 
-<details open>
-<summary>Show Code</summary>
+
 ```java
 import java.util.Scanner;
 
@@ -487,11 +473,10 @@ public class LearnCoding2
     }
 }
 ```
-</details>
+
 
 ### 14. Find the Fibonacci Series up to Nth Term in Java Language
-<details open>
-<summary>Show Code</summary>
+
 ```java
 public class Main
  {
@@ -519,11 +504,10 @@ public class Main
    }
  }
 ```
- </details>
+
 
  ### 15. Factorial of a Number in Java
-<details open>
-<summary>Show Code</summary>
+
  ```java
  class Main
 {
@@ -544,7 +528,7 @@ public class Main
     }
 }
 ```
-</details>
+
 
 
 ### 16. Program to check if the given 2 strings are anagrams.
@@ -553,8 +537,7 @@ public class Main
 2. sort the array
 3. check the equality of the 2 arrays.
 
-<details open>
-<summary>Show Code</summary>
+
 ```java
 import java.util.Arrays;
 
@@ -590,7 +573,6 @@ public class Anagram {
     }
 }
 ```
-</details>
 
 
 
@@ -598,8 +580,7 @@ public class Anagram {
 1. check for spaces in the given string
 2. count the spaces inside a third party variable
 3. Add 1 to the total space count to find the total number of words.
-<details open>
-<summary>Show Code</summary>
+
 ```java
 public class WordCounter {
     public static int countWords(String str) {
@@ -621,15 +602,14 @@ public class WordCounter {
     }
 }
 ```
-</details>
+
 
 
 ### 18. Write a program to find the count of all the uppercase letters in the given string
 1. Identify the ASCII value for A and Z (A=65 and Z=90)
 2. use a conditional statement to check if the character being checked falls under the given ranges
 3. if yes increment count
-<details open>
-<summary>Show Code</summary>
+
 ```java
 public class UppercaseCounter {
     public static int countUppercase(String str) {
@@ -652,12 +632,11 @@ public class UppercaseCounter {
         System.out.println("The number of uppercase letters in the string is: " + uppercaseCount);
     }
 }
-</details>
+
 ```
 
 ### 19. Write a program to print the smallest and biggest numbers in an array.
-<details open>
-<summary>Show Code</summary>
+
 ```java
 import java.util.Arrays;
 
@@ -673,15 +652,14 @@ public class MinMaxFinder {
         System.out.println("Largest element: " + arr[arr.length - 1]);
     }
 }
-</details>
+
 ```
 
 ### 20. Find the Factorial of the given Number in Java
 1. Call function getFactorial(num)
 2. Set base case when num == 0 return 1
 3. Other cases return num * getFactorial(num-1);
-<details open>
-<summary>Show Code</summary>
+
 ```java
 import java.util.Scanner;
 
@@ -701,14 +679,13 @@ public class FactorialFinder {
         System.out.println("Factorial of " + n + " is " + factorial);
     }
 }
-</details>
+
 ```
 
 ### 21. Check Whether or Not the given Number is an Armstrong Number
 
 370 = 3^3 + 7^3 + 0^3 = 27 + 343 + 0 = 370
-<details open>
-<summary>Show Code</summary>
+
 ```java
 import java.util.Scanner;
 
@@ -737,12 +714,11 @@ public class ArmstrongChecker {
         }
     }
 }
-</details>
+
 ```
 
 ### 22. Check if the given number is a Perfect Square using Java
-<details open>
-<summary>Show Code</summary>
+
 ```Java
 import java.util.Scanner;
 
@@ -769,12 +745,11 @@ public class PerfectSquareChecker {
         }
     }
 }
-</details>
+
 ```
 
 ### 23. Program for Finding out the Prime Factors of a number in Java
-<details open>
-<summary>Show Code</summary>
+
 ```java
 import java.util.Scanner;
 
@@ -801,12 +776,11 @@ public class PerfectSquareChecker {
         }
     }
 }
-</details>
+
 ```
 
 ### 24. Program to find the power of a number using Java
-<details open>
-<summary>Show Code</summary>
+
 ```java
 import java.util.Scanner;
 
@@ -829,13 +803,12 @@ public class PrimeFactorFinder {
         System.out.println();
     }
 }
-</details>
+
 ```
 
 
 ### 25. Program to find factors of a number using Java
-<details open>
-<summary>Show Code</summary>
+
 ```java
 import java.util.Scanner;
 
@@ -853,12 +826,11 @@ public class FactorFinder {
         }
     }
 }
-</details>
+
 ```
 
 ### 26. Check Whether or Not the Given Number is a Strong Number in Java Language
-<details open>
-<summary>Show Code</summary>
+
 ```java
 import java.util.Scanner;
 
@@ -887,11 +859,10 @@ public class StrongNumberChecker {
         }
     }
 }
-</details>
+
 ```
 ### 27. Program to check if the given number is an Automorphic number or not using Java
-<details open>
-<summary>Show Code</summary>
+
 ```java
 import java.util.Scanner;
 
@@ -921,10 +892,9 @@ public class AutomorphicNumberChecker {
 }
 
 ```
-</details>
+
 ### 28. Binary to decimal conversion using Java
-<details open>
-<summary>Show Code</summary>
+
 
 ```java
 
@@ -954,12 +924,11 @@ public class Main
 	}
 }
 ```
-</details>
+
 
 
 ### 29. Octal to decimal conversion in Java
-<details open>
-<summary>Show Code</summary>
+
 ```java
 import java.util.Scanner;
 public class Main
@@ -991,4 +960,4 @@ public class Main
 }
 
 ```
-</details>
+
