@@ -113,8 +113,8 @@ public class Main
       System.out.println ("The sum is " + sum);
   }
 }
-</deatils>
 ```
+</deatils>
 
 ```java
 <details open>
@@ -129,8 +129,9 @@ public class Main
 		System.out.println("The Sum is "+ sum);
 	}
 }
-</details>
 ```
+</details>
+
 ### 5. Find the Greatest of the Three Numbers in Java
 
 ```java
@@ -157,8 +158,9 @@ public class Main
         System.out.println (num3 + " is the greatest");
   }
 }
-</details>
 ```
+</details>
+
 
 ```java
 <details open>
@@ -180,8 +182,9 @@ public class Main
     System.out.println (result + " is the greatest");
   }
 }
-</details>
 ```
+</details>
+
 ### 6. Check Whether or Not the Year is a Leap Year in Java
 <details open>
 <summary>Show Code</summary>
@@ -218,8 +221,9 @@ public class LeapYear {
 		}
 	}
 }
-</details>
 ```
+</details>
+
 ### 7. Check if the given number is prime or not in Java
 <details open>
 <summary>Show Code</summary>
@@ -260,8 +264,9 @@ public class PrimeNumber {
 		}
 	}
 }
+```					 
 </details>
-```
+
 ### 8. Find all the Prime Numbers in a Given Interval in Java
 <details open>
 <summary>Show Code</summary>
@@ -298,8 +303,9 @@ public class Main
      return true;
    }
  }
+```			   
  </details>
- ```
+ 
  ### 9. Find the Sum of the Digits of a Number in Java Language
 <details open>
 <summary>Show Code</summary>
@@ -323,8 +329,9 @@ public class Main
      return getSum (num / 10, sum);
    }
  }
+```
  </details>
- ```
+ 
 ### 10. Find the Reverse of a Number in Java Language
 <details open>
 <summary>Show Code</summary>
@@ -350,8 +357,9 @@ public class Main
         System.out.println ("Reversed Number: " + reverse);
     }
 }
-</details>
 ```
+</details>
+
 ### 11. Check Whether or Not the Number is a Palindrome in Java Language
 <details open>
 <summary>Show Code</summary>
@@ -379,8 +387,9 @@ public class Main
        System.out.println (num + " is not Palindrome");
    }
  }
+```
  </details>
- ```
+ 
  ### 12. Check Whether or Not the Number is an Armstrong Number
  <details open>
 <summary>Show Code</summary>
@@ -424,8 +433,9 @@ class Main {
     }
 
 }
-</details>
 ```
+</details>
+
 ### 13. Find the Armstrong Numbers in a given Range using Java
 
 <details open>
@@ -473,8 +483,9 @@ public class LearnCoding2
         return (int) Math.pow(digit, order) + getArmstrongSum(num/10, order);
     }
 }
-</details>
 ```
+</details>
+
 ### 14. Find the Fibonacci Series up to Nth Term in Java Language
 <details open>
 <summary>Show Code</summary>
@@ -504,8 +515,9 @@ public class Main
 
    }
  }
+```
  </details>
- ```
+
  ### 15. Factorial of a Number in Java
 <details open>
 <summary>Show Code</summary>
@@ -528,8 +540,9 @@ public class Main
         System.out.println("Factorial of " + num + " is " + factorial(num));
     }
 }
-</details>
 ```
+</details>
+
 
 ### 16. Program to check if the given 2 strings are anagrams.
 
@@ -573,8 +586,9 @@ public class Anagram {
         }
     }
 }
-</details>
 ```
+</details>
+
 
 
 ### 17. Write a program to count the number of words in the given string
@@ -603,8 +617,9 @@ public class WordCounter {
         System.out.println("The number of words in the string is: " + wordCount);
     }
 }
-</details>
 ```
+</details>
+
 
 ### 18. Write a program to find the count of all the uppercase letters in the given string
 1. Identify the ASCII value for A and Z (A=65 and Z=90)
