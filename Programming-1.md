@@ -916,8 +916,9 @@ public class AutomorphicNumberChecker {
         }
     }
 }
-</details>
+
 ```
+</details>
 ### 28. Binary to decimal conversion using Java
 <details open>
 <summary>Show Code</summary>
@@ -985,5 +986,6 @@ public class Main
 		sc.close();   
 	}
 }
-</details>
+
 ```
+</details>
