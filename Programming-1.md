@@ -2,7 +2,6 @@
 
 ### 1. Find a number is positive or negative ?
 
-<summary>Show Code</summary>  
   
 class Main
 {
