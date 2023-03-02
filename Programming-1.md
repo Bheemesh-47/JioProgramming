@@ -828,8 +828,9 @@ public class AutomorphicNumberChecker {
 }
 
 ```
+### 28. Binary to decimal conversion using Java
 <details open>
-<summary>### 28. Binary to decimal conversion using Java</summary>
+<summary>Show Code</summary>
 
 ```java
 
