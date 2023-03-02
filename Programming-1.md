@@ -749,10 +749,84 @@ public class PrimeFactorFinder {
 
 
 ### 25. Program to find factors of a number using Java
+```java
+import java.util.Scanner;
+
+public class FactorFinder {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a positive integer: ");
+        int num = input.nextInt();
+        
+        System.out.print("Factors of " + num + " are: ");
+        for (int i = 1; i <= num; i++) {
+            if (num % i == 0) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+}
+```
 
 ### 26. Check Whether or Not the Given Number is a Strong Number in Java Language
+```java
+import java.util.Scanner;
 
+public class StrongNumberChecker {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a positive integer: ");
+        int num = input.nextInt();
+        
+        int originalNum = num;
+        int sum = 0;
+        while (num > 0) {
+            int digit = num % 10;
+            int factorial = 1;
+            for (int i = digit; i > 0; i--) {
+                factorial *= i;
+            }
+            sum += factorial;
+            num /= 10;
+        }
+        
+        if (sum == originalNum) {
+            System.out.println(originalNum + " is a strong number.");
+        } else {
+            System.out.println(originalNum + " is not a strong number.");
+        }
+    }
+}
+```
 ### 27. Program to check if the given number is an Automorphic number or not using Java
+```java
+import java.util.Scanner;
 
+public class AutomorphicNumberChecker {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a positive integer: ");
+        int num = input.nextInt();
+        
+        int square = num * num;
+        int count = 0;
+        int originalNum = num;
+        
+        while (num > 0) {
+            count++;
+            num /= 10;
+        }
+        
+        int lastDigits = (int) (square % (Math.pow(10, count)));
+        
+        if (lastDigits == originalNum) {
+            System.out.println(originalNum + " is an Automorphic number.");
+        } else {
+            System.out.println(originalNum + " is not an Automorphic number.");
+        }
+    }
+}
+
+```
 
 
